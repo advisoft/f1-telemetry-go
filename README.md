@@ -22,11 +22,11 @@ func main() {
   if err != nil {
 	log.Fatal(err)
   }
-	
+
   client.OnEventPacket(func(packet *packets.PacketEventData) {
   	fmt.Printf("Code: %s\n", packet.EventCodeString())
   })
-	
+
   client.Run()
 }
 ```

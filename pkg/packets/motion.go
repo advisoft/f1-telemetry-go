@@ -1,7 +1,7 @@
 package packets
 
 import (
-	math2 "github.com/anilmisirlioglu/f1-telemetry-go/pkg/math"
+	math2 "github.com/advisoft/f1-telemetry-go/pkg/math"
 )
 
 // The motion packet gives physics data for all the cars being driven.
